@@ -1,0 +1,24 @@
+{
+    "name": "shale",
+    "description": "HMVC Modules for Silex",
+    "require": {
+        "silex/silex": "~1.1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Sims",
+            "email": "danielsims@quickenloans.com"
+        },
+        {
+            "name": "John Pedrie",
+            "email": "johnpedrie@quickenloans.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Shale\\": "src"
+        }
+    }
+}
