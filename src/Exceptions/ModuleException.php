@@ -1,4 +1,4 @@
-<?php namespace QL\HMVC\Exceptions;
+<?php namespace Shale\HMVC\Exceptions;
 
 use \Exception;
 

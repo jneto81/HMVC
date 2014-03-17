@@ -1,4 +1,4 @@
-<?php namespace Shale;
+<?php namespace Shale\HMVC;
 
 use Symfony\Component\HttpKernel\Controller\ControllerResolverInterface;
 use Symfony\Component\HttpFoundation\Request;

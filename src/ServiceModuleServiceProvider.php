@@ -1,4 +1,4 @@
-<?php namespace Shale;
+<?php namespace Shale\HMVC;
 
 use Silex\ServiceControllerResolver;
 use Silex\Application;
