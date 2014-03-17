@@ -1,7 +1,7 @@
-<?php namespace Shale;
+<?php namespace Shale\HMVC;
 
 use Symfony\Component\HttpFoundation\Response;
-use Shale\Exceptions;
+use Shale\HMVC\Exceptions;
 
 class Module
 {
