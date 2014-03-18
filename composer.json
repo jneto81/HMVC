@@ -1,5 +1,5 @@
 {
-    "name": "shale",
+    "name": "shale/hmvc",
     "description": "HMVC Modules for Silex",
     "require": {
         "silex/silex": "~1.1.0"
