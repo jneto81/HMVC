@@ -8,6 +8,9 @@ class Module
     protected $controller;
     protected $response;
 
+    /**
+     * @codeCoverageIgnore
+     */
     public function __construct($controller)
     {
         $this->controller = $controller;
@@ -50,5 +53,10 @@ class Module
     public function getController()
     {
         return $this->controller;
+    }
+
+    public function getResponse()
+    {
+        return $this->response;
     }
 }
