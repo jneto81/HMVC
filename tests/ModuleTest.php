@@ -46,7 +46,7 @@ class ModuleTest extends PHPUnit_Framework_TestCase
   {
     $response = $this->module->index();
 
-    $this->assertEquals($response, 'Hello World');
+    $this->assertEquals($response->getContent(), 'Hello World');
     $this->assertInstanceOf('Symfony\\Component\\HttpFoundation\\Response', $this->module->getResponse());
     $this->assertEquals($this->module->getResponse()->getStatusCode(), 200);
   }
