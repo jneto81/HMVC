@@ -29,7 +29,7 @@ class Module
         }
 
         if ($this->response->getStatusCode() === 200) {
-            return $this->response->getContent();
+            return $this->response;
         }
 
         $this->throwException($this->response->getContent());
