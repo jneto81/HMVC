@@ -5,8 +5,8 @@ use Shale\HMVC\Exceptions;
 
 class Module
 {
-    protected $controller;
-    protected $response;
+    private $controller;
+    private $response;
 
     /**
      * @codeCoverageIgnore

@@ -6,7 +6,7 @@ use Silex\ServiceControllerResolver;
 
 class ModuleControllerResolver implements ControllerResolverInterface
 {
-    protected $resolver;
+    private $resolver;
     public function __construct(ServiceControllerResolver $resolver)
     {
         $this->resolver = $resolver;
