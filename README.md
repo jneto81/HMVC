@@ -5,7 +5,6 @@ Shale
 
 HMVC modules for Silex
 
-
 #HMVC
 
 Many modern web frameworks are built using the Model View Controller (MVC) design pattern. The HMVC pattern takes this one step further by implement a Hierarchical Model View Controller.
